@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="2">
+
+    <listeners>
+        <listener class-name="UIAutomator.Selenium.Listeners"/>
+    </listeners>
+
+    <test name="Test2">
+        <classes>
+            <class name="UIAutomator.Selenium.Jdoodle"/>
+        </classes>
+    </test>
+
+    <test name="API">
+        <classes>
+
+
+        </classes>
+    </test>
+    <!-- Test -->
+</suite> <!-- Suite -->
